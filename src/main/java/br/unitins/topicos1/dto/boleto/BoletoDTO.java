@@ -7,6 +7,7 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
+// comentario
 public record BoletoDTO(
 
                 @NotBlank(message = "O número do boleto deve ser informado.") String numeroBoleto,
